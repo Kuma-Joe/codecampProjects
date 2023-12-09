@@ -1,0 +1,93 @@
+body {
+    font-family: Candara Cascadia Code;   
+    background-image: url('https://i.pinimg.com/564x/84/d2/aa/84d2aa08bbf48f92728a5409cae66fb1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    text-align: center;
+    font-size: 40px;
+}
+/* bc6c25
+dda15e
+fefae0
+283618
+606c38  */
+h1 {
+    margin: 1em 0 0;
+    color: #EDE0A6;
+}
+.subtitle{
+    margin: 0 0 2em 0;
+    color: #C69774;
+    font-size: 30px;
+}
+
+form {
+    margin: 1em auto;
+    padding: 3ex;
+    min-width: 42%;
+    max-width: 400px;
+    font-size: 22px;;
+    border: solid #283618;  
+    color:#EDE0A6;
+    background-color: rgba(37,75,57, 0.9);
+    font-weight: bold;
+}
+.head {
+    font-size: 30px;
+    
+}
+/*EDE0A6*/
+input[type="text"], input[type="email"], select, textarea, input[type="number"] {
+    width: 100%;
+    background-color: rgb(37,75,57);
+    border: none;
+    color:#EDE0A6;
+    height: 4ex;
+    margin-top: 1ex;
+    border: black solid 1px;
+    padding: 0.5ex;
+}
+
+.question {
+    display: block;
+    margin-bottom: 1em;
+    
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 0 2ex 0 0;
+    border: solid #EDE0A6 5px;
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked {
+    background-color: #283618;
+}
+.input, select {
+    margin-bottom: 1em;
+    color:#C69774;
+    font-size: 25px;
+}
+input[type="submit"] {
+    margin-bottom: unset;
+    
+}
+input, select, textarea {
+    font-size: 20px;
+    font-weight: bold;
+}
+textarea {
+    height: 4em;
+    resize: none;
+}
+input[type="submit"] {
+    background-color: #EDE0A6;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border: solid #C69774 2.5px;
+}
+input::placeholder, textarea::placeholder {
+    color: rgba(147, 155, 151, 0.4);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>firstproject</title>
+<link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+  <section>
+  <h1 id="title">CodeCamp Survey Form</h1>
+  <p class="subtitle" id="description">help us improve our site</div>
+  </section>
+  <form id="survey-form" method="post" action="//nowhere">
+    
+
+        <label class="question head">
+        Fill the form
+        </label>
+    <div class="main"></div>
+        <div class="input"><div><label id="name-label" for="name">name</label></div><input id="name" type="text" placeholder="enter your name"required></div>
+        <div class="input"><div><label id="email-label" for="email">email</label></div><input id="email" type="email"placeholder="enter your email" required></div>
+        <div class="input"><div><label id="number-label" for="number">age</label></div><input id="number" type="number" placeholder="enter your age (optional)" min= "13" max="80"></div>
+    </div>
+    <div>
+        <label for="dropdown" class="question">
+            How long have you been using our site
+        </label>
+    </div>
+    <div class="input">
+        <select id="dropdown">
+            <option>choose one</option>
+            <option>3 months</option>
+            <option>6 months</option>
+            <option>9 months</option>
+            <option>more than a year</option>
+        </select>
+    </div>
+    <div>
+        <label class="question">
+        How satisfied are you with the overall performance of our site
+        </label>
+        <div class="input">
+        <div><label><input type="radio" name="choose" value="r1" id="rad1">excellent</label></div>
+        <div><label><input type="radio" name="choose" value="r2" id="rad2">good</label></div>
+        <div><label><input type="radio" name="choose" value="r3" id="rad3">bad</label></div>
+        </div>
+    </div>
+    <div>
+        <label class="question">
+            How did you find out about us
+        </label>
+        <div class="input">
+            <div><label><input type="checkbox" value="one">friend</label></div>
+            <div><label><input type="checkbox" value="two">colleague</label></div>
+            <div><label><input type="checkbox" value="three">other</label></div>
+        </div>
+    </div>
+    <div>
+    <label for="textarea" class="question">
+    Any suggestions to help us improve our services
+</label>
+
+    <div class="input">
+        <textarea id="textarea" rows="3" placeholder="thank you for your time, please suggest solutions"></textarea>    
+    </div>
+    
+    </div>
+    
+    <input id="submit" type="submit">
+    </div>
+  </form>
+
+</body>
+
+
+</html>
